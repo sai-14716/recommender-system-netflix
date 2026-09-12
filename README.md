@@ -118,12 +118,6 @@ The hybrid achieved the following **future chronological test** result:
 
 Compared with pure SVD++, the hybrid reduced validation RMSE from `0.8756` to `0.8519`. This is an improvement of approximately **2.7%**:
 
-```
-(0.8756 - 0.8519) / 0.8756 = 2.7%
-```
-
-The available results do not support a 27% improvement claim. A 27% figure should not be used unless a separate metric and matched baseline produce that result.
-
 The full run took approximately 66 minutes on Kaggle. The current ranking evaluation reports the hybrid's future-split performance as Recall@20 `0.014` and NDCG@20 `0.0067`; ranking claims require additional experimental validation.
 
 ## Implementation Notes
