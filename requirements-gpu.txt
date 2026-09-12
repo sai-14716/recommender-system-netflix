@@ -1,0 +1,3 @@
+# Install the CUDA-compatible PyTorch build supplied by the Kaggle image.
+# The base requirements are intentionally separate so pip does not replace Kaggle's torch.
+-r requirements.txt
